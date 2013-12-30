@@ -1,0 +1,28 @@
+name: FrostWarn
+main: tm.info.felix.Warn
+version: 1.0
+
+commands:
+   warn:
+      description: Warn a player
+      usage: /warn [Player] [Reason]
+      permission: frostwarn.warn
+      permission-message: No permission!
+   warnings:
+      description: See the warnings of a player
+      usage: /warnings [Player]
+      permission: frostwarn.warnings
+      permission-message: No permission!
+   clearwarns:
+      description: Clear a player's warning
+      permission: frostwarn.clearwarns
+      permission-message: No permission!
+permissions:
+   frostwarn.warn:
+      default: op
+   frostwarn.warnings:
+      default: op
+   frostwarn.warnings.others:
+      default: op
+   frostwarn.clearwarns:
+      default: op

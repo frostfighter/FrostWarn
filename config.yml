@@ -1,0 +1,8 @@
+kickonwarn: true
+
+ban: true
+warnstoban: 3
+
+bancommand: 'ban'
+
+warnings:
